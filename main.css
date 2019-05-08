@@ -36,14 +36,20 @@ h2 {
     color: #8F0000;
   }
   #objects {
-    width: 40vw;
+    width: 30%;
     float: left;
     font-family: 'Acme', sans-serif;
     color: #DAA520;
   }
   #arrays {
-    width: 40vw;
+    width: 30%;
     float: right;
+    font-family: 'Acme', sans-serif;
+    color: #DAA520;
+  }
+  #variables {
+    width: 100vw;
+    float: center;
     font-family: 'Acme', sans-serif;
     color: #DAA520;
   }
@@ -51,12 +57,21 @@ h2 {
     text-align: center;
     margin: auto;
   }
-  
   #formspree-input {
-    width: 00px;
+    width: 100px;
     height: 100px;
+  }
+   .col-sm1 {
+    padding: 2em; 
+  }
+  .col-sm2 {
+    padding: 1em; 
+  }
+  .col-sm3 {
+    padding: 2em; 
   }
   /* BODY */
   body {
+    text-align: center;
     background-color: #000000;
   }
